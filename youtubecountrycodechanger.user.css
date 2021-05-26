@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           Youtube Country Code Changer
 @namespace      https://github.com/DrPleaseRespect
-@version        1.0.0
+@version        2.0.0
 @description    Replaces Country Code with other Text
 @author         DrPleaseRespect
 @preprocessor stylus
-@updateURL https://gist.githubusercontent.com/DrPleaseRespect/cea107047247dc1be2b8533ec79bdc78/raw/youtubecountrycodechanger.user.css
+@updateURL https://raw.githubusercontent.com/DrPleaseRespect/User-CSS-Stuff/master/youtubecountrycodechanger.user.css
 @var text CountryCode "Text to Replace the Country Code" Insert Text In the Settings
 ==/UserStyle== */
 
