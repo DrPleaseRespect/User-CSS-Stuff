@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Wikipedia Logo to Mcdonalds Style
+@namespace      https://github.com/DrPleaseRespect
+@version        1.0.0
+@description    /u/thetoastedsnowflake for inspiration and logo
+@updateURL https://gist.githubusercontent.com/DrPleaseRespect/eb3c2e79b60f57be02fb77acbda38df2/raw/wikipedialogotomc.user.css
+@author         DrPleaseRespect
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org") {
+    .mw-wiki-logo {
+        background-image: url(https://drpleaserespect.github.io/drpleaserespect-webassets/wikipedia_logo_css_icon/wikipedialogoreplace.png)
+    }
+}
