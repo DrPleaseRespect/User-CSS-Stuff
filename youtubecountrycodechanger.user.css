@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Country Code Changer
 @namespace      https://github.com/DrPleaseRespect
-@version        2.0.0
+@version        2.1.0
 @description    Replaces Country Code with other Text
 @author         DrPleaseRespect
 @preprocessor stylus
@@ -26,7 +26,7 @@
         font-family: 'Oxygen', sans-serif;
     }
     .style-scope.tp-yt-app-drawer #logo-icon  {
-        margin-left: -21px
+        margin-left: -8px
     }
     .style-scope.tp-yt-app-drawer #country-code:after {
         left: 0px
