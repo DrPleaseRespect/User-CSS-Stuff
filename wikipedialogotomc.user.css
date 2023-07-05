@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia Logo to Mcdonalds Style
 @namespace      https://github.com/DrPleaseRespect
-@version        2.0.0
+@version        3.0.0
 @description    /u/thetoastedsnowflake for inspiration and logo
 @updateURL https://raw.githubusercontent.com/DrPleaseRespect/User-CSS-Stuff/master/wikipedialogotomc.user.css
 @author         DrPleaseRespect
@@ -10,5 +10,29 @@
 @-moz-document domain("wikipedia.org") {
     .mw-wiki-logo {
         background-image: url(https://drpleaserespect.github.io/drpleaserespect-webassets/wikipedia_logo_css_icon/wikipedialogoreplace.png)
+    }
+    .mw-logo-tagline {
+        display: none;
+    }
+    .mw-logo-wordmark {
+        margin-top: 40px;
+        visibility: hidden;
+    }
+    .mw-logo-container {
+        padding-right: 30px;
+        background-repeat: no-repeat;
+        background-image: url(https://drpleaserespect.github.io/drpleaserespect-webassets/wikipedia_logo_css_icon/wikipedialogoreplace_Name.png)
+    }
+    @media (min-width: 720px) {
+        .mw-logo-icon {
+            display: block;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            background: url(https://drpleaserespect.github.io/drpleaserespect-webassets/wikipedia_logo_css_icon/wikipedialogoreplace_W.png) no-repeat;
+            width: 70px;
+            height: 55px;
+            background-size: 70px;
+            padding-left: 70px; /* Equal to width of new image */
+        }
     }
 }
